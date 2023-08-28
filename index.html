@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designing My Website Using HTML and CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            color: black;
+        }
+
+        .logo img {
+            max-width: 100%; /* Ensure the image fits the container */
+        }
+
+        .nav-links ul {
+            list-style-type: none; /* Remove bullet points */
+            display: flex; /* Make the list items appear horizontally */
+            gap: 20px; /* Give some space between list items */
+        }
+
+        .nav-links a {
+            text-decoration: none; /* Remove underlines */
+            color: white; /* Match the color specified in the body */
+            transition: color 0.3s; /* Smooth color transition */
+        }
+
+        .nav-links a:hover {
+            color: red; /* Change color on hover */
+        }
+
+        /* #circle {
+            display: flex;
+            gap: 20px;
+        } */
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo">
+                <img src="/Users/priyanshdesai07/Downloads/Screenshot_2023-08-24_at_2.59.06_PM-removebg-preview.png" alt="Logo Image"> <!-- Always add an 'alt' attribute for accessibility -->
+            </div>
+            <div class="logo-text">Priyansh Desai</div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Priyansh Desai</a></li>
+                    <li><a href="#">Mera Kaam</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="information">
+            <div id="rectangle">
+                <img src = "/Users/priyanshdesai07/Downloads/WhatsApp Image 2023-08-27 at 4.49.06 PM.jpeg">
+            </div>
+        </div>
+    </header>
+    <section id="about-me-content">
+        <h1>About Me</h1>
+        
+        <div class="about-me-details">
+            <img src="/Users/priyanshdesai07/Desktop/Screenshot 2023-08-24 at 11.46.24 PM.png" alt="Your Name" class="profile-pic">
+            
+            <div class="about-description">
+                <p>Born in Surat, my journey began in tennis, where I nurtured values like discipline and adaptability. A pivotal decision in 11th grade saw me pivot to academia, notably for the challenging JEE examinations. With dedication and self-study, I secured a decent rank, later immersing myself in Computer Science/AI at Plaksha University. Despite being new to the field, my resilience helped me close the knowledge gap with peers. Today, I continuously hone my programming skills, with platforms like Leetcode aiding in my growth. I see challenges not as roadblocks but opportunities to learn and adapt.</p>
+                <p>A fervent believer in the power of knowledge, I am passionate about diving into new realms and expanding my horizons. Every challenge I face is another opportunity, and I'm committed to fighting my way through, finding solutions and emerging stronger. Projects that push me out of my comfort zone and teach me novel concepts are particularly close to my heart. They aren't just tasks for me; they're adventures. At my core, I'm a true hustler. No matter how daunting a task may seem, I persist, driven by the belief that every effort is a step closer to success. I don't just aim for completion; I strive for mastery and success, no matter how big or small.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

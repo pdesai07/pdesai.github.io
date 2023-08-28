@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: black;  /* Changed from gray for better visibility on white background */
+    font-family: sans-serif;  /* Added for improved typography */
+}
+
+.main-nav {                                     /*task bar height aur woh sab check karne ke liye*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+}
+
+
+.logo-text {
+    margin-left: -750px; /* Add some spacing between the logo and the text */
+    font-size: 20px; /* Adjust the size as needed */
+    color: white;
+}
+
+.logo img {
+    max-width: 40px;  /* Set a reasonable max width for the logo */
+    height: 40px;
+    margin-left: 30px;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white; /* Changed from gray for better visibility on white background */
+    transition: color 0.3s;
+    padding: 10px 20px;  /* Added padding for a better clickable area */
+}
+
+.nav-links a:hover {
+    color: red; /* Changed to gray for a subtle hover effect */
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Assuming the header is around 100px, adjust if needed */
+}
+
+/* #rectangle {
+    background-color: #e0e5e9;
+    width: calc(100% - 50px);  /* 50px margin on each side */
+/*    height: calc(100vh - 100px);  /* Considering the height of the nav and the 50px margin */
+  /*  margin: 20px;
+    position: relative;
+} */
+
+#rectangle img {
+    width: 30%;  /* Adjust as required */
+    height: auto; /* Adjust as required */
+    position: absolute;  /* Position it inside the rectangle */
+    top: 55%;  /* Center the image vertically */
+    left: 80%; /* Center the image horizontally */
+    transform: translate(-50%, -50%);  /* Center the image with the top and left properties */
+}
+
+#about-me {
+    padding: 50px 0;
+    background-color: #f9f9f9; /* A light grey background, but you can adjust */
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;  /* Padding on the sides for small devices */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+.description {
+    max-width: 60%;  /* Adjust based on your preference */
+}
+
+
+/* .cta {
+    margin-top: 30px; /* Space above the CTA buttons */
+    /* display: flex;
+    gap: 20px; /* Space between the CTA buttons */
+    /* justify-content: center; /* Horizontally center the buttons */
+/* } */
+
+/* .cta-button {
+    padding: 10px 20px; Top-Bottom, Left-Right padding */
+    /* text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF0000; /* Red color */
+    /* color: white;
+    transition: background-color 0.3s; Smooth transition for hover effect */
+/* } */ 
+
+/* .cta-button:hover {
+    background-color: #CC0000; /* A darker red for hover effect */
+/* } */ 
+
+/*... (your existing CSS content before this) ...*/
+
+#about-me-content {
+    max-width: 1400px;
+    margin: 180px auto;
+    padding: 10px;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: left;
+    font-size: 2.5em;
+    margin-bottom: 150px;
+    color: white;
+}
+
+.about-me-details {
+    display: flex;
+    gap: 70px;
+    align-items: left;
+}
+
+.profile-pic {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.about-description p {
+    font-size: 1.4em;
+    line-height: 1.6;
+    color: white;
+}
+
+/*... (your existing CSS content after this) ...*/
